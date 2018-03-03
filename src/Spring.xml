@@ -1,0 +1,34 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+			<beans>
+
+<bean id="StateBean" class="com.State">
+
+
+	<property name="cities" >
+	
+	
+	<list>
+		
+			<value>Chittor</value>
+			<value>Nellore</value>
+			<value>Guntur</value>
+			<value>Eluru</value>
+		
+	
+	</list>
+	
+	
+	
+	
+	</property>
+	
+	<property name="sname" value="Andhra"></property>
+	
+   
+
+
+</bean>
+
+</beans>
